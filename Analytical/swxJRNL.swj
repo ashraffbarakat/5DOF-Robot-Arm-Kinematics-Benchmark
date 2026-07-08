@@ -1,0 +1,47 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 06/11/26 by ASHRAF
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = Application.SldWorks
+
+swApp.ActivateDoc2 "2nd link", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+
+' Redraw
+Part.GraphicsRedraw2
+
+' Redraw
+Part.GraphicsRedraw2
+
+' Redraw
+Part.GraphicsRedraw2
+Dim myMassProp As Object
+Set myMassProp = Part.Extension.CreateMassProperty2()
+myMassProp.IncludeHiddenBodiesOrComponents  = True
+myMassProp.ShowWeldBeadMass = False
+boolstatus = myMassProp.Recalculate()
+Set myMassProp = Part.Extension.CreateMassProperty2()
+myMassProp.IncludeHiddenBodiesOrComponents  = True
+myMassProp.ShowWeldBeadMass = False
+boolstatus = myMassProp.Recalculate()
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ClearSelection2 True
+swApp.ExitApp
+End Sub
