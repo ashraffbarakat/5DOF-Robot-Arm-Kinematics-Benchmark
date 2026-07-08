@@ -6,14 +6,6 @@ This project presents the complete modeling and analysis of a **5-Degree-of-Free
 
 The primary contribution of this project is a comprehensive comparison of these methodologies to evaluate their accuracy, computational performance, and suitability for robotics research and engineering applications. By combining theoretical derivation with simulation and benchmarking, the project provides a deeper understanding of robotic manipulator modeling and establishes a reliable framework for validating kinematic solutions.
 
-## Motivation
-
-Robotic manipulators are widely used in modern industries where precision, repeatability, and automation are essential. Developing reliable robotic systems requires accurate mathematical models that can predict the manipulator's behavior before deployment on physical hardware.
-
-Although multiple modeling approaches are available, each offers different advantages and limitations in terms of mathematical complexity, implementation effort, visualization capabilities, and computational performance. Understanding these differences is crucial for robotics engineers when selecting the most appropriate approach for research, simulation, control, or industrial applications.
-
-This project was developed to investigate and compare three widely used modeling techniques—analytical kinematics, MATLAB Robotics Toolbox, and Simulink dynamic simulation—using the same 5DOF robotic manipulator as a common benchmark. The comparison highlights the strengths and trade-offs of each approach while demonstrating how they complement one another throughout the robotic system development process.
-
 ## Project Objectives
 
 The primary objective of this project is to develop and validate a comprehensive modeling framework for a 5-DOF robotic manipulator using three complementary approaches. By integrating analytical derivation, software-based modeling, and dynamic simulation, the project aims to provide a reliable benchmark for evaluating different robotic modeling methodologies.
