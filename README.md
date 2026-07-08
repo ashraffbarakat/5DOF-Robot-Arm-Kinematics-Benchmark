@@ -19,3 +19,44 @@ The three methods are implemented, validated, and benchmarked to compare their a
 - Validate the consistency of the three implementations.
 - Compare the methods in terms of accuracy, computational efficiency, and modeling complexity.
 
+## Project Structure
+
+```text
+5DOF-Robot-Arm-Kinematics-Benchmark
+│
+├── mathematical_model/      # Analytical kinematics implementation
+├── robotics_toolbox/        # MATLAB Robotics Toolbox implementation
+├── simulink/                # Simulink dynamic model
+├── benchmark/               # Performance comparison and analysis
+├── documentation/           # Project report and supporting documents
+├── media/                   # Images, GIFs, and videos
+├── results/                 # Simulation outputs and comparison figures
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+## Project Workflow
+
+```text
+Robot Design
+      │
+      ▼
+DH Parameters
+      │
+      ▼
+─────────────────────────────────────────
+│               │                      │
+▼               ▼                      ▼
+Analytical   Robotics Toolbox     Simulink
+   │               │                  │
+   └───────────────┴──────────────────┘
+                   │
+                   ▼
+          Results Validation
+                   │
+                   ▼
+        Performance Benchmark
+```
+
+
