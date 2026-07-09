@@ -27,6 +27,9 @@ The specific objectives are:
 
 The project follows a structured methodology to ensure the correctness and consistency of the developed robotic manipulator models. The same 5-DOF robotic arm is modeled using three independent approaches, allowing direct validation and comparison of the obtained results.
 
+<p align="center">
+  <img src="Documentation/111.png" alt="5DOF Robot Arm" width="900">
+</p>
 The workflow consists of the following stages:
 
 1. **Robot Modeling:** Define the manipulator geometry and assign Denavit–Hartenberg (DH) parameters to describe the kinematic structure.
