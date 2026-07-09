@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Documentation/112.png" alt="5DOF Robot Arm" width="900">
+</p>
+
 # 🤖 5DOF Robot Arm Kinematics Benchmark
 
 ## Project Overview
